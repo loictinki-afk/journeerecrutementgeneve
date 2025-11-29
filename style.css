@@ -759,17 +759,3 @@ a { color: inherit; text-decoration: none; }
     justify-content: center;
   }
 }
-@media (max-width: 900px) {
-  .columns {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .columns > .ecosystem {
-    order: 2; /* ce bloc passe en deuxième sur mobile */
-  }
-
-  .columns > .headline {
-    order: 1; /* ce bloc passe en premier sur mobile */
-  }
-}
