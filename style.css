@@ -723,14 +723,12 @@ a { color: inherit; text-decoration: none; }
     grid-template-columns: minmax(0, 1fr);
   }
   .hero-right {
-    order: -1;
-    margin-bottom: 20px;
+    margin-top: 20px; /* juste un espace entre les deux blocs, tu peux enlever si tu veux */
   }
   .section-grid {
     grid-template-columns: minmax(0, 1fr);
   }
 }
-
 @media (max-width: 720px) {
   .page-wrapper {
     padding: 20px 12px 32px;
@@ -757,14 +755,5 @@ a { color: inherit; text-decoration: none; }
   .btn-primary {
     width: 100%;
     justify-content: center;
-  }
-}
-/* Inversion de l'ordre des 2 blocs uniquement sur mobile */
-@media (max-width: 900px) {
-  .hero-right {
-    order: 2;
-  }
-  .hero-left {
-    order: 1;
   }
 }
